@@ -6,6 +6,7 @@ class Tfdr < Formula
   url "https://s3-us-west-1.amazonaws.com/pcarleton-homebrew-tools/tfdr/tfdr.tar.gz"
   sha256 "361e66fcc2e38d90e7a7043f27b94a09e6dca1ba999ad3f590f895f3974fa424"
   depends_on "golang" => :build
+  version  "v0.1"
 
   def install
     ENV["GOPATH"] = buildpath
