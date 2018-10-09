@@ -1,6 +1,6 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
-class TFDR < Formula
+class Tfdr < Formula
   desc "A CLI utility for manipulating Terraform states and plans"
   homepage "github.com/pcarleton/tfdr"
   url "https://s3-us-west-1.amazonaws.com/pcarleton-homebrew-tools/tfdr/tfdr.tar.gz"
